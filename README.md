@@ -15,4 +15,4 @@ everything used for this project:
 
 -Firebase for file storage
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,expressjs,mongodb,react,nodejs,styledcomponents,materialui)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,expressjs,mongodb,react,nodejs,firebase,styledcomponents,materialui)](https://skillicons.dev)
