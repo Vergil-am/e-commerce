@@ -54,7 +54,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://13.50.231.83:5000/api/",
   "devDependencies": {
     "dotenv": "^16.0.3"
   }
