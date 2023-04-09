@@ -85,7 +85,7 @@ function Order() {
     <Container>
       <Navbar />
       <Wrapper>
-        {Orders && Orders.map((order) =>
+        {Orders.map((order) =>
           <OrderContainer key={order._id}>
             {order.Products.map((product, index) => {
               return <Link style={{ textDecoration: 'none' }} to={`/product/${product.id}`}>
