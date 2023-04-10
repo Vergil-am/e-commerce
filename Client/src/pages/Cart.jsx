@@ -144,7 +144,7 @@ const Cart = () => {
     if (Cart.Products.length !== 0) {
       try {
         const Stripe = await stripePromise;
-        const res = await axios.post("/api/order/payment", {products});
+        const res = await axios.post("https://13.53.199.118.nip.io/api/order/payment", {products});
         window.location.replace(res.data);
       } catch (err) { }
     }
