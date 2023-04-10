@@ -54,7 +54,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://13.53.199.118.nip.io",
   "devDependencies": {
     "dotenv": "^16.0.3"
   }
