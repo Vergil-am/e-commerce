@@ -21,7 +21,7 @@ function Paymentsuccess() {
     const CreateOrder = async () => {
       try {
         const payment_status = await axios.post(
-          `https://13.48.129.94.nip.io/order/success/${session_id}`, { products, Price, user });
+          `https://13.48.129.94.nip.io/api/order/success/${session_id}`, { products, Price, user });
 
       } catch (err) {
 
