@@ -69,7 +69,7 @@ function Order() {
         const id = user.sub
         const header = `Authorization: Bearer ${Token}`;
         try {
-          const res = await axios.get(`https://13.48.129.94.nip.io/order/find/${id}`, { headers: { header } })
+          const res = await axios.get(`https://13.48.129.94.nip.io/api/order/find/${id}`, { headers: { header } })
           setOrders(res.data)
         } catch (err) {
 
