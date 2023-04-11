@@ -66,11 +66,10 @@ function Order() {
     const getOrders = async () => {
       if (user !== undefined) {
         const Token = await getAccessTokenSilently()
-        console.log(Token)
         const id = user.sub
         const header = `Authorization: Bearer ${Token}`;
         try {
-          const res = await axios.get(`/order/find/${id}`, { headers: { header } })
+          const res = await axios.get(`https://13.48.129.94.nip.io/order/find/${id}`, { headers: { header } })
           setOrders(res.data)
         } catch (err) {
 
